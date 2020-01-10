@@ -28,7 +28,7 @@ class MyAppState extends State<MyApp> {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      initialRoute : Routes.home,
+      initialRoute : Routes.about,
       onGenerateRoute: Application.router.generator,
     );
     debugPrint("initial route = ${app.initialRoute}");
